@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  background-color: #315481;
+  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+  background-attachment: fixed;
+
+  padding: 0;
+  margin: 0;
+
+  font-size: 14px;
+
+}
+
+header {
+  background: #d2edf4;
+  background-image: linear-gradient(to bottom, #d0edf4, #e1e5f0 100%);
+  background-attachment: fixed;
+  padding: 20px 15px 15px 15px;
+}
+
+h1 {
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+li {
+  position: relative;
+  list-style: none;
+  padding: 15px;
+  border-bottom: #eee solid 1px;
+}
+
+li .text {
+  margin-right: 10px;
+}
