@@ -57,6 +57,10 @@ li.checked {
   color: #888;
 }
 
+.hide-completed {
+  float: right;
+}
+
 .delete {
   float: right;
   font-weight: bold;
