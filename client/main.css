@@ -57,6 +57,10 @@ li.checked {
   color: #888;
 }
 
+#login-buttons {
+  display: block;
+}
+
 .hide-completed {
   float: right;
 }

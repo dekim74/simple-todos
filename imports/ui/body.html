@@ -8,9 +8,13 @@
         Hide Completed Tasks
       </label>
 
+      {{>loginButtons}}
+
+      {{#if currentUser}}
       <form class="new-task">
         <input type="text" name="text" placeholder="할일을 입력해주세요!">
       </form>
+      {{/if}}
     </header>
 
     <ul>
