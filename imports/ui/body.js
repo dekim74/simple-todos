@@ -20,6 +20,5 @@ Template.body.events({
     Tasks.insert({text, createdAt: new Date(),});
 
     target.text.value = '';
-
   },
 });
