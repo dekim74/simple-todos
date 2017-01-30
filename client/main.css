@@ -43,10 +43,18 @@ li .text {
   margin-right: 10px;
 }
 
+li.checked .text {
+  text-decoration: line-through;
+}
+
 form {
   margin-top: 10px;
   margin-bottom: -10px;
   position: relative;
+}
+
+li.checked {
+  color: #888;
 }
 
 .delete {
@@ -70,4 +78,15 @@ form {
 
 .new-task input:focus {
   outline: 0;
+}
+
+@media (max-width: 600px) {
+    li {
+      padding: 12px 15px;
+    }
+
+    .new-task input {
+      padding-bottom: 5px;
+    }
+
 }
